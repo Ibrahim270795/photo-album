@@ -1,0 +1,41 @@
+html, body {
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    display: flex;
+    padding-top: 20px;
+}
+.albums {
+    width: 260px;
+    border: solid lavender 1px;
+    padding: 10px;
+}
+.album {
+    padding: 10px;
+    margin: 1px 0;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+}
+.selected {
+    background-color: lightgray;
+}
+.album:hover {
+    background-color: lightgray;
+}
+.photos{
+    width: 100%;
+    border: solid lavender 1px;
+    margin-left: 10px;
+    padding: 10px;
+    text-align: center;
+
+}
+.photo {
+    margin: 5px;
+    display: inline-block;
+}
+.null {
+    font-size: 30px;
+}
